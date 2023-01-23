@@ -3928,8 +3928,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .furniture__body {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: auto !important;
+    -webkit-overflow-scrolling: touch !important;
   }
 }
 
